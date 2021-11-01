@@ -1,5 +1,5 @@
 name: Bug Report
-description: File a bug report
+description: File a bug report. Please note that Github Issues is not for general support.
 body:
   - type: dropdown
     id: type

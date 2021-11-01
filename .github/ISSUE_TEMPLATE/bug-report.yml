@@ -1,0 +1,58 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - octocat
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: "Are you running SpongeForge or SpongeVanilla?"
+      options:
+        - "SpongeForge"
+        - "SpongeVanilla"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Sponge Version
+      description: What version number are you running?
+      placeholder: ex. 1.16.5-36.2.5-8.0.0-RC921
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating System
+      description: e.g. Windows, macOS, Linux
+    validations:
+      required: true
+  - type: input
+    id: java
+    attributes:
+      label: Java Version
+      description: "You can get this by running `java -version` from the command line"
+    validations:
+      required: true
+  - type: textarea
+    id: plugins
+    attributes:
+      label: Plugins/Mods
+      description: List all plugins and mods that you are using
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Describe the bug
+      description: Explain what the bug is and how to reproduce it
+    validations:
+      required: true
+  - type: input
+    id: logs
+    attributes:
+      label: Link to logs
+      description: "Please paste relevant logs to [Github Gist](https://gist.github.com) or [paste.gg](https://paste.gg)."

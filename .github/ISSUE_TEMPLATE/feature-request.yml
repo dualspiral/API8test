@@ -1,6 +1,5 @@
 name: Implementation/Feature Request
 description: Request implementation or a feature.
-title: ""
 body:
   - type: dropdown
     id: type

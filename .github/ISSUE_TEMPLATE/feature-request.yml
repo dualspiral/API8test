@@ -1,0 +1,30 @@
+name: Implementation/Feature Request
+description: Request implementation or a feature.
+title: ""
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: "Are you requesting this for SpongeForge, SpongeVanilla or both?"
+      options:
+        - "SpongeForge"
+        - "SpongeVanilla"
+        - "Both"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Sponge Version
+      description: What version number are you running that does not fulfil your requirements?
+      placeholder: ex. 1.16.5-36.2.5-8.0.0-RC921
+    validations:
+      required: true
+  - type: textarea
+    id: what-do-you-want
+    attributes:
+      label: What are you requesting?
+      description: Explain what what you're requesting and why you're requesting it.
+    validations:
+      required: true
+  

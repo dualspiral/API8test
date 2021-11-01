@@ -5,14 +5,14 @@ body:
     attributes:
       value: "## Before You Begin"
   - type: markdown
-      attributes:
-        value: |
-          "Github Issues are for filing bug reports and requesting new features only. If you need general support, please check out the following places first:"
-          "* [Running SpongeForge? Check to see if a mod you're running is incompatibile here](https://docs.spongepowered.org/stable/en/server/spongineer/incompatible.html)."
-          "* [Read more about how to set up a server on SpongeDocs](https://docs.spongepowered.org/stable/en/server/index.html)"
-          "* [Need server support? Post on our official forums instead.](https://forums.spongepowered.org/)"
-          "* [Got a quick question? Ask us on our official Discord guild](https://discord.gg/sponge)"
-          "If you are sure you have found a bug with Sponge, file an issue below!"
+    attributes:
+      value: |
+        "Github Issues are for filing bug reports and requesting new features only. If you need general support, please check out the following places first:"
+        "* [Running SpongeForge? Check to see if a mod you're running is incompatibile here](https://docs.spongepowered.org/stable/en/server/spongineer/incompatible.html)."
+        "* [Read more about how to set up a server on SpongeDocs](https://docs.spongepowered.org/stable/en/server/index.html)"
+        "* [Need server support? Post on our official forums instead.](https://forums.spongepowered.org/)"
+        "* [Got a quick question? Ask us on our official Discord guild](https://discord.gg/sponge)"
+        "If you are sure you have found a bug with Sponge, file an issue below!"
   - type: dropdown
     id: type
     attributes:

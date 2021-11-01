@@ -1,8 +1,14 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Known Mod Incompatibilities
+    url: https://docs.spongepowered.org/stable/en/server/spongineer/incompatible.html
+    about: "If you are running SpongeForge and having trouble, read this page first, you may simply need to change a mod or sponge setting"
   - name: Sponge Docs
     url: https://docs.spongepowered.org/
-    about: Read these
+    about: "If you need help setting up a server, our Docs pages may help you."
   - name: Sponge Forums
     url: https://forums.spongepowered.org/
-    about: Forums
+    about: "If you need support running your server and want to ask a question, post on our official forums"
+  - name: Sponge Discord Guild
+    url: https://discord.gg/sponge
+    about: "For quick help, join our Discord channel!"

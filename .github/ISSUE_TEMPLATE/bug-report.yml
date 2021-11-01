@@ -18,17 +18,19 @@ body:
   - type: dropdown
     id: type
     attributes:
-      label: "Are you running SpongeForge or SpongeVanilla?"
+      label: Affected Product(s)
+      description: Which products does this bug affect?
       options:
         - "SpongeForge"
         - "SpongeVanilla"
+      multiple: true
     validations:
       required: true
   - type: input
     id: version
     attributes:
-      label: Sponge Version
-      description: What version number are you running?
+      label: Version
+      description: What version of Sponge are you running?
       placeholder: ex. 1.16.5-36.2.5-8.0.0-RC921
     validations:
       required: true
